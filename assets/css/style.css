@@ -80,7 +80,7 @@
 .heading_text {
     color: #2C49FE;
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 135%;
@@ -89,7 +89,7 @@
 #free {
     color: #01C8FF;
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 135%;
@@ -806,6 +806,11 @@
     /* 65.522px */
 }
 
+.margins {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .ipsum {
     color: rgba(0, 0, 0, 0.70);
     font-family: "Poppins", sans-serif;
@@ -938,6 +943,11 @@
 
 /* fifth page */
 
+.w-h-65-50 {
+    max-width: 65px;
+    height: 50px;
+}
+
 .fifth_page {
     background-color: #000000;
 }
@@ -949,7 +959,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    max-width: 346px;
+    max-width: 210px;
 }
 
 .mr-18 {
@@ -1009,6 +1019,12 @@
 @media (max-width: 576px) {
     .md-8 {
         width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .md-6 {
+        width: 50%;
         padding-left: 12px;
         padding-right: 12px;
     }
