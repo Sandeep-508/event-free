@@ -962,6 +962,14 @@
     background-color: #000000;
 }
 
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
 .dolor {
     color: #FFF;
     font-family: "Poppins", sans-serif;
@@ -970,6 +978,7 @@
     font-weight: 400;
     line-height: normal;
     max-width: 210px;
+    margin-bottom: 15px;
 }
 
 .mr-18 {
